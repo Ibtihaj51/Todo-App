@@ -12,7 +12,7 @@ app.post('/todo', (req, res) => {
     todos.push(req.body.text);
 
     res.send({
-        message: "Your Todo is saved",
+        message: "Your Todo is Saved",
         data: todos
     })
 })
