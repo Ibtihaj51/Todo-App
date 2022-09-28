@@ -24,7 +24,7 @@
         function postTodo() {
             let todoText = document.querySelector("#todo").value
 
-            axios.post(`http://localhost:3000/todo`, {
+            axios.post(`https://elated-tick-glasses.cyclic.app/todo`, {
                 text: todoText
             })
                 .then(function (response) {
